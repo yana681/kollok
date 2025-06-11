@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace kollok
 {
-    class Equipment
+    public class Equipment
     {
         public string Type { get; set; }
         public string Brand { get; set; }

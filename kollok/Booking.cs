@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace kollok
 {
-    class Booking
+    public class Booking
     {
+
         public Equipment Equipment { get; set; }
         public string ForemanName { get; set; }
         public DateTime StartDate { get; set; }
